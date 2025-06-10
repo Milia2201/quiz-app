@@ -1,0 +1,53 @@
+@import "./card.css";
+@import "./nav.css";
+@import "./profile.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-family:  'Arial Narrow Bold', sans-serif;
+
+  margin-inline: auto;
+  --light-background-color: aliceblue;
+  --dark-color-background: rgb(86, 84, 84);
+  --color-background: rgb(95, 214, 214);
+  --darkmode-color:rgb(22, 96, 96);
+  background-color: var(--light-background-color);
+/*   border: 2px solid greenyellow; */
+  height: 100%;
+  align-items: center;
+
+}
+
+.header {
+  background-color: var(--color-background);
+  text-align: center;   
+  border: 2px groove var(--color-background);
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{
+/*     border: 2px solid greenyellow; */
+    height: 100%;
+    background-color: var(--dark-color-background);
+  }
+  .header {
+    background-color: rgb(22, 96, 96);
+    color: var(--color-background);
+    border-color: var(--dark-color-background); 
+    border-style: 0px solid; 
+  }
+  body {
+    background-color: var(--dark-color-background);
+    margin: 0;
+    max-width: 100%;
+    
+    
+  }
+}
