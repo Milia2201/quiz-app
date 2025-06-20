@@ -30,7 +30,7 @@ ul {
   background-color: rgb(207, 206, 206);
 } 
 .bookmark {
-  background-image: url(./assets/bookmark-dark.svg);
+  background-image: url("../assets/bookmark-dark.svg");
   background-color: var(--light-background-color); 
   background-size: cover;
   background-position: center;
@@ -48,16 +48,16 @@ ul {
 } only when used with a curser needed */
 
 .bookmarked {
-  background-image: url(./assets/bookmark-check-dark.svg);
+  background-image: url("../assets/bookmark-check-dark.svg");
 }
 
 @media (prefers-color-scheme: dark) {
   .bookmark {
-    background-image: url(./assets/bookmark-white.svg);
+    background-image: url("../assets/bookmark-white.svg");
     background-color: var(--dark-color-background);
   }
   .bookmarked {
-    background-image: url(./assets/bookmark-check-white.svg);
+    background-image: url("../assets/bookmark-check-white.svg");
     background-color: var(--dark-color-background);
   }
   .show-answer-button{

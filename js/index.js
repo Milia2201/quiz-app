@@ -12,7 +12,7 @@ bookmarkButton.addEventListener("click", () => {
 
 showAnswerButton.addEventListener("click", () => {
     answerText.classList.toggle("hidden");
-    
+
     if (answerText.classList.contains("hidden") === true) {
         showAnswerButton.textContent = "Show Answer";
     } else {
@@ -22,3 +22,13 @@ showAnswerButton.addEventListener("click", () => {
 
 
 
+const form = document.querySelector('[data-js="form"]');
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const formElement = event.target;
+
+  const formData = new FormData(formElement);
+  const data = Object.fromEntries(formData);
+})

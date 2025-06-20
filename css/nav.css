@@ -30,15 +30,15 @@ nav {
   padding: 0;
 }
 .home {
-  background-image: url(./assets/home-dark.svg);
+  background-image: url("./assets/home-dark.svg");
 }
 
 .bookmark-nav {
-  background-image: url(./assets/bookmark-dark.svg);
+  background-image: url("./assets/bookmark-dark.svg");
 }
 
 .profile {
-  background-image: url(./assets/circle-user-dark.svg);
+  background-image: url("./assets/circle-user-dark.svg");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,13 +46,13 @@ nav {
     background-color: var(--darkmode-color);
   }
   .home {
-    background-image: url(./assets/home-white.svg);
+    background-image: url("./assets/home-white.svg");
   }
   .bookmark-nav{
-    background-image: url(./assets/bookmark-white.svg);
+    background-image: url("./assets/bookmark-white.svg");
   }
   .profile{
-    background-image: url(./assets/circle-user-white.svg);
+    background-image: url("./assets/circle-user-white.svg");
   }
 }
 
