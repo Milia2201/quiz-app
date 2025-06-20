@@ -12,14 +12,13 @@ bookmarkButton.addEventListener("click", () => {
 
 showAnswerButton.addEventListener("click", () => {
     answerText.classList.toggle("hidden");
+    
+    if (answerText.classList.contains("hidden") === true) {
+        showAnswerButton.textContent = "Show Answer";
+    } else {
+        showAnswerButton.textContent = "Hide Answer";
+    }
 })
 
-/* When the user clicks on the button the previously hidden 
-answer should be displayed
-When the user clicks this button again the answer is hidden 
-again
-The user can click on this button endlessly and the answer 
-will either be displayed or hidden after each click
-The toggle functionality should be applied by using a class 
-which is named "hidden" */
+
 
