@@ -8,6 +8,7 @@
     />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -16,8 +17,8 @@
     </header>
     <main class="main-content"> 
         <ul class="main-content__cards">
-          <li class="card">
-            <button class="bookmark">
+          <li class="card" data-js="card">
+            <button class="bookmark bookmarked" data-js="bookmark">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -26,7 +27,8 @@
               What is the smallest country in the world by land area?
               <span aria-label="Quiz Question"></span>
             </h2>
-            <button class="show-answer-button">
+            <p data-js="answerText">Vatican City</p>
+            <button class="show-answer-button" data-js="show-answer-button">
               Show Answer
               <span aria-label="Show Answer"></span></button>
             <ul class="tags">
@@ -43,7 +45,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -118,7 +120,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>

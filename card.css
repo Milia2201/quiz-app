@@ -48,18 +48,9 @@ ul {
 } only when used with a curser needed */
 
 .bookmarked {
-  background-image: url(/assets/bookmark-check-dark.svg);
-  background-color: var(--light-background-color);
-  background-size: cover;
-  background-position: center;
-  border: none;
-  width: 25px;
-  height: 25px;
-  outline: none;
-  padding: 0;
-  align-self: end;
-/*   margin: 2px; only when used with a curser needed */
+  background-image: url(./assets/bookmark-check-dark.svg);
 }
+
 @media (prefers-color-scheme: dark) {
   .bookmark {
     background-image: url(./assets/bookmark-white.svg);
@@ -73,6 +64,10 @@ ul {
   background-color: rgb(142, 139, 139); 
   }
 } 
+
+.hidden {
+  display: none;
+}
 
 /* .bookmarked:hover {
   transform: scale(1.05);
