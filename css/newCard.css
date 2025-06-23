@@ -1,0 +1,52 @@
+.form{
+    
+    display: flex;
+    flex-direction: column;
+        border: 2px solid green;
+
+}
+
+label {
+    border: 2px solid red;
+    padding: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.input {
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+    align-self: center;
+    height: 15vh;
+    border: 2px solid blue;
+
+}
+
+textarea {
+    border: 3px solid #831414;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    resize: vertical; /* Allows vertical resizing only */
+}
+textarea::placeholder{
+    color:rgb(255, 0, 179);
+}
+
+.input-tag {
+    height: auto;
+}
+
+input:focus {
+    border-color: var(--darkmode-color);
+    outline: none;
+}
+
+.submit-button {
+    border: 2px solid rgb(255, 0, 179);
+    width: 50%;
+    align-self: center;
+
+}

@@ -1,5 +1,8 @@
+.main-content {
+
+}
+
 .main-content__cards {
-/*   border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -39,13 +42,8 @@ ul {
   height: 25px;
   display: inline-block;
   outline: none;
-/*   margin: 2px;   only when used with a curser needed */
   align-self: end;
 }
-
-/* .bookmark:hover {
-  transform: scale(1.05);
-} only when used with a curser needed */
 
 .bookmarked {
   background-image: url("../assets/bookmark-check-dark.svg");
@@ -69,19 +67,10 @@ ul {
   display: none;
 }
 
-.hide-answer {
-  
-}
-/* .bookmarked:hover {
-  transform: scale(1.05);
-} only when used with a curser needed */
-
 .tags {
   display: flex;
   align-items: flex-start;
   gap: 15px;
-/*   border: 2px solid darkred; */
-
 }
 
 .tag {
