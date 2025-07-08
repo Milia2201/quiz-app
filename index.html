@@ -15,9 +15,10 @@
       <h1 class="header__title">Quiz App</h1>
       <span aria-label="Title"> </span>
     </header>
-    <main class="main-content"> 
+    <main class="main-content main-content__home">
+      <section class="page-home">
         <ul class="main-content__cards">
-          <li class="card" data-js="card">
+          <!-- <li class="card" data-js="card">
             <button class="bookmark bookmarked" data-js="bookmark">
               <span
                 role="img"
@@ -168,20 +169,79 @@
                 <p class="tag">Tags</p>
               </li>
             </ul>
-          </li>
+          </li> -->
         </ul>
+      </section>
+      <section class="page-bookmarked">
+        <ul class="main-content__cards"></ul>
+      </section>
+      <section class="page-plus">
+        <form data-js="form" class="form">
+          <label for="your-question">Your Question</label>
+          <textarea
+            id="your-question"
+            name="yourQuestion"
+            rows="4"
+            cols="50"
+            class="input input-your-question"
+            placeholder="Type your question here..."
+            required
+          ></textarea>
+
+          <label for="your-answer">Your Answer</label>
+          <textarea
+            id="your-answer"
+            name="yourAnswer"
+            rows="4"
+            cols="50"
+            class="input input-your-answer"
+            placeholder="Type your answer here..."
+            required
+          ></textarea>
+          <label for="tag">Tag</label>
+          <input
+            type="text"
+            name="tag"
+            id="tag"
+            class="input input-tag"
+            placeholder="Tag"
+          />
+          <button type="submit" class="submit-button">Create</button>
+        </form>
+      </section>
+      <section class="page-profile">
+        <section class="personal-information">
+          <button class="profile-picture">
+            <span
+              role="img"
+              aria-label="To save this question press this bookmark"
+            ></span>
+          </button>
+          <h2 class="username">Max Doe</h2>
+          <h3 class="about-me">About me</h3>
+          <p class="text-about-me">Text about me. I'm really great!</p>
+        </section>
+        <p>Counter created questions</p>
+        <p>Counter bookmarks</p>
+        <h4>Settings</h4>
+        <p>Dark Mode (toggle, but its already implemented)</p>
+      </section>
     </main>
-    <nav >
+
+    <nav>
       <ul class="navigation">
-<!--         <span aria-label="navigation"></span> -->
+        <!--         <span aria-label="navigation"></span> -->
         <li>
           <a href="index.html" class="navigation-item home"></a>
           <span aria-label="home button"></span>
         </li>
         <li>
-          <a href="bookmarked_cards.html" class="navigation-item bookmark-nav"></a>
+          <a
+            href="bookmarked_cards.html"
+            class="navigation-item bookmark-nav"
+          ></a>
           <span aria-label="bookmarked cards"></span>
-        </li>        
+        </li>
         <li>
           <a href="new_card.html" class="navigation-item new-card"></a>
           <span aria-label="New Card"></span>
@@ -191,6 +251,6 @@
           <span aria-label="Profile"></span>
         </li>
       </ul>
-    </nav>      
+    </nav>
   </body>
 </html>

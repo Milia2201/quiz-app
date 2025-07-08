@@ -1,0 +1,72 @@
+export const questions = [
+    {
+        question: "What is the first Pokémon in the Pokédex?",
+        answer: "Bulbasaur",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "Which Pokémon is known as the 'Electric Mouse'?",
+        answer: "Pikachu",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "What type is Charizard?",
+        answer: "Fire/Flying",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "Which Pokémon evolves into Gyarados?",
+        answer: "Magikarp",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "What is the signature move of Mewtwo?",
+        answer: "Psystrike",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "Which Pokémon is known as the 'Legendary Pokémon' of time?",
+        answer: "Dialga",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "What is the evolution of Eevee that is a Water type?",
+        answer: "Vaporeon",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "Which Pokémon is known for its ability to change forms?",
+        answer: "Deoxys",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "What is the name of Ash's first Pokémon?",
+        answer: "Pikachu",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    },
+    {
+        question: "Which Pokémon is known as the 'Guardian of the Sea'?",
+        answer: "Lugia",
+        tag: "Pokémon",
+        isBookmarked: false,
+        answerShown: false,
+    }
+];

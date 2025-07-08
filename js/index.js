@@ -1,6 +1,6 @@
-console.clear();
+ console.clear();
 
-const bookmarkButton = document.querySelector("[data-js='bookmark']");
+/*const bookmarkButton = document.querySelector("[data-js='bookmark']");
 const card = document.querySelector("[data-js='card']");
 const answerText = document.querySelector("[data-js='answerText']");
 const showAnswerButton = document.querySelector("[data-js='show-answer-button']");
@@ -19,3 +19,4 @@ showAnswerButton.addEventListener("click", () => {
         showAnswerButton.textContent = "Hide Answer";
     }
 })
+ */
