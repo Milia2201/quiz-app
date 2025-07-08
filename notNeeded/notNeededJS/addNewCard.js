@@ -1,12 +1,3 @@
-/* const form = document.querySelector('[data-js="form"]');
-
-form.addEventListener("submit", (event) => {
-
-
-  const formData = new FormData(formElement);
-  const data = Object.fromEntries(formData);
-}) */
-
 
 console.clear();
 
@@ -63,39 +54,40 @@ form.addEventListener("submit", (event) => {
 
 })
 
-/* newQuestion. innerHTML =*
-<button data-js="btn_bookmark_quiz" class="ph-fill ph-bookmark">
-</button>
-<div class="container_question">
-<h3 class="question" data-js="question">‹/hЗ>
-</div>
-<div class-"container_answer">
-<div class="answer hidden" data-js="answer"></div>
-<button class="btn_show-answer" data-js="btn_show_answer">
-Show Answer
-</button>
-</div>
-<div class="container_tags">
-<p class="tag" data-js="tag"></p>
-
-</div>
 
 
 
 
-newQuestion querySelector ('[data-js="question"]*). textContent = data question;
-newQuestion querySelector ('[data-js="answer"]'). textContent = data.answer;
-newQuestion. querySelector (' [data-js="tag"]'). textContent = *#${data.tag1}*;
-appontainer append (newQuestion);
-newForm.reset();
-conct charCountonc = document quenySolectondll/"ldata.ic_"chan-counton"]?)• 
+/* <form data-js="form" class="form">
+          <label for="your-question">Your Question</label>
+          <textarea
+            id="your-question"
+            name="yourQuestion"
+            rows="4"
+            cols="50"
+            class="input input-your-question"
+            placeholder="Type your question here..."
+            required
+          ></textarea>
 
-const questions = [
-{question: ,
-answer: ,
-tag: ,
-isBookmarked: false,
-answerShown: false,
-}
-]
-*/
+          <label for="your-answer">Your Answer</label>
+          <textarea
+            id="your-answer"
+            name="yourAnswer"
+            rows="4"
+            cols="50"
+            class="input input-your-answer"
+            placeholder="Type your answer here..."
+            required
+          ></textarea>
+          <label for="tag">Tag</label>
+          <input
+            type="text"
+            name="tag"
+            id="tag"
+            class="input input-tag"
+            placeholder="Tag"
+          />
+          <button type="submit" class="submit-button">Create</button>
+        </form> */
+
