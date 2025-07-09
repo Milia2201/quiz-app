@@ -139,11 +139,13 @@ form.addEventListener("submit", (event) => {
 const textInputQuestion = document.querySelector('[data-js="yourQuestion"]');
 const characterCountQuestion = document.querySelector('[data-js="characterCountQuestion"]');
 
-// Update character count on input
+
 textInputQuestion.addEventListener("input", function () {
   const remaining = 150 - textInputQuestion.value.length;
   characterCountQuestion.textContent = `${remaining} characters remaining`;
 });
+
+
 const textInputAnswer = document.querySelector('[data-js="yourAnswer"]');
 const characterCountAnswer = document.querySelector('[data-js="characterCountAnswer"]');
 
