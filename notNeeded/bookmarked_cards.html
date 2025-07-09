@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -17,7 +17,7 @@
     <main class="main-content"> 
         <ul class="main-content__cards">
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -43,7 +43,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -68,7 +68,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -93,7 +93,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -118,7 +118,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -143,7 +143,7 @@
             </ul>
           </li>
           <li class="card">
-            <button class="bookmarked">
+            <button class="bookmark bookmarked">
               <span
                 role="img"
                 aria-label="To save this question press this bookmark"></span>
@@ -170,8 +170,7 @@
         </ul>
     </main>
     <nav >
-      <ul class="navigation">
-<!--         <span aria-label="navigation"></span> -->
+      <ul class="navigation" aria-label="navigation">
         <li>
           <a href="index.html" class="navigation-item home"></a>
           <span aria-label="home button"></span>
@@ -179,6 +178,10 @@
         <li>
           <a href="bookmarked_cards.html" class="navigation-item bookmark-nav"></a>
           <span aria-label="bookmarked cards"></span>
+        </li>
+        <li>
+          <a href="new_card.html" class="navigation-item new-card"></a>
+          <span aria-label="New Card"></span>
         </li>
         <li>
           <a href="profile.html" class="navigation-item profile"></a>

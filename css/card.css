@@ -1,5 +1,8 @@
+.main-content {
+
+}
+
 .main-content__cards {
-/*   border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -30,7 +33,7 @@ ul {
   background-color: rgb(207, 206, 206);
 } 
 .bookmark {
-  background-image: url(./assets/bookmark-dark.svg);
+  background-image: url("../assets/bookmark-dark.svg");
   background-color: var(--light-background-color); 
   background-size: cover;
   background-position: center;
@@ -39,34 +42,20 @@ ul {
   height: 25px;
   display: inline-block;
   outline: none;
-/*   margin: 2px;   only when used with a curser needed */
   align-self: end;
 }
-
-/* .bookmark:hover {
-  transform: scale(1.05);
-} only when used with a curser needed */
 
 .bookmarked {
-  background-image: url(/assets/bookmark-check-dark.svg);
-  background-color: var(--light-background-color);
-  background-size: cover;
-  background-position: center;
-  border: none;
-  width: 25px;
-  height: 25px;
-  outline: none;
-  padding: 0;
-  align-self: end;
-/*   margin: 2px; only when used with a curser needed */
+  background-image: url("../assets/bookmark-check-dark.svg");
 }
+
 @media (prefers-color-scheme: dark) {
   .bookmark {
-    background-image: url(./assets/bookmark-white.svg);
+    background-image: url("../assets/bookmark-white.svg");
     background-color: var(--dark-color-background);
   }
   .bookmarked {
-    background-image: url(./assets/bookmark-check-white.svg);
+    background-image: url("../assets/bookmark-check-white.svg");
     background-color: var(--dark-color-background);
   }
   .show-answer-button{
@@ -74,16 +63,14 @@ ul {
   }
 } 
 
-/* .bookmarked:hover {
-  transform: scale(1.05);
-} only when used with a curser needed */
+.hidden {
+  display: none;
+}
 
 .tags {
   display: flex;
   align-items: flex-start;
   gap: 15px;
-/*   border: 2px solid darkred; */
-
 }
 
 .tag {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/newCard.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
+      <span aria-label="Title"> </span>
+    </header>
+    <main class="main-content"> 
+      <form data-js="form" class="form">
+        <label for="your-question">Your Question</label>
+        <textarea
+          id="your-question"
+          name="yourQuestion" 
+          rows="4" cols="50"
+          class="input input-your-question"
+          placeholder="Type your question here..." 
+          required></textarea>
+
+        <label for="your-answer">Your Answer</label>
+        <textarea 
+          id="your-answer"
+          name="yourAnswer"
+          rows="4" cols="50"
+          class="input input-your-answer"
+          placeholder="Type your answer here..." 
+          required></textarea>
+        <label for="tag">Tag</label>
+        <input
+          type="text"
+          name="tag"
+          id="tag"
+          class="input input-tag"
+          placeholder="Tag"
+        />
+        <button type="submit" class="submit-button">Create</button>
+      </form>
+      <ul data-js="card-container">
+
+      </ul>
+    </main>
+    <nav >
+      <ul class="navigation">
+        <li>
+          <a href="index.html" class="navigation-item home"></a>
+          <span aria-label="home button"></span>
+        </li>
+        <li>
+          <a href="bookmarked_cards.html" class="navigation-item bookmark-nav"></a>
+          <span aria-label="bookmarked cards"></span>
+        </li>        
+        <li>
+          <a href="new_card.html" class="navigation-item new-card"></a>
+          <span aria-label="New Card"></span>
+        </li>
+        <li>
+          <a href="profile.html" class="navigation-item profile"></a>
+          <span aria-label="Profile"></span>
+        </li>
+      </ul>
+    </nav>      
+  </body>
+</html>
+
+
+
+
+
+

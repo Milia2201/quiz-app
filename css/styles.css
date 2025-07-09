@@ -1,6 +1,7 @@
 @import "./card.css";
 @import "./nav.css";
 @import "./profile.css";
+@import "./newCard.css";
 
 *,
 *::before,
@@ -19,9 +20,8 @@
   --darkmode-color:rgb(22, 96, 96);
   background-color: var(--light-background-color);
 /*   border: 2px solid greenyellow; */
-  height: 100%;
+  min-height: 100vh;
   align-items: center;
-
 }
 
 .header {
@@ -50,4 +50,8 @@
     
     
   }
+}
+
+.hidden {
+  display: none;
 }
